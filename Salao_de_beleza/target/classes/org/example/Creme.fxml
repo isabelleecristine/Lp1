@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SalaoController">
+   <children>
+      <Button fx:id="bt_com" layoutX="72.0" layoutY="105.0" mnemonicParsing="false" onAction="#bt_com" text="Comprar" />
+      <Button fx:id="bt_pass" layoutX="79.0" layoutY="175.0" mnemonicParsing="false" onAction="#bt_pass" text="Passar" />
+      <Button fx:id="bt_dos" layoutX="81.0" layoutY="236.0" mnemonicParsing="false" onAction="#bt_dos" text="Dosar" />
+      <Button fx:id="bt_volt" layoutX="81.0" layoutY="335.0" mnemonicParsing="false" onAction="#bt_volt" text="Voltar" />
+      <Label layoutX="81.0" layoutY="48.0" text="Creme" textFill="RED">
+         <font>
+            <Font name="Arial" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="257.0" fitWidth="349.0" layoutX="245.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/Creme.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="texto" layoutX="193.0" layoutY="344.0" prefHeight="48.0" prefWidth="396.0" />
+   </children>
+</AnchorPane>
