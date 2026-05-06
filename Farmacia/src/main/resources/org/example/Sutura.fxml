@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FarmaciaController">
+   <children>
+      <Button fx:id="bt_mar" layoutX="73.0" layoutY="147.0" mnemonicParsing="false" onAction="#bt_mar" text="Marca" />
+      <Button fx:id="bt_tip" layoutX="73.0" layoutY="200.0" mnemonicParsing="false" onAction="#bt_tip" text="Tipo" />
+      <Button fx:id="bt_tam" layoutX="65.0" layoutY="259.0" mnemonicParsing="false" onAction="#bt_tam" text="Tamanho" />
+      <Label layoutX="85.0" layoutY="84.0" text="Sutura" textFill="RED">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="248.0" fitWidth="331.0" layoutX="234.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Salao_de_beleza/src/main/resources/org/example/imagens/Sutura.jpg" />
+         </image></ImageView>
+      <Label fx:id="Texto" layoutX="153.0" layoutY="318.0" prefHeight="37.0" prefWidth="460.0" />
+      <Button fx:id="bt_vol" layoutX="74.0" layoutY="336.0" mnemonicParsing="false" onAction="#bt_vol" text="Voltar" />
+   </children>
+</AnchorPane>

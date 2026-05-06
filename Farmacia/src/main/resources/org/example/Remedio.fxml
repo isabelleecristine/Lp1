@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FarmaciaController">
+   <children>
+      <Button fx:id="bt_nom" layoutX="93.0" layoutY="160.0" mnemonicParsing="false" onAction="#bt_nom" text="Nome" />
+      <Button fx:id="bt_pre" layoutX="93.0" layoutY="221.0" mnemonicParsing="false" onAction="#bt_pre" text="Preco" />
+      <Button fx:id="bt_tip" layoutX="93.0" layoutY="284.0" mnemonicParsing="false" onAction="#bt_tip" text="Tipo" />
+      <Label layoutX="65.0" layoutY="65.0" text="Remedio" textFill="RED">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="225.0" fitWidth="310.0" layoutX="258.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Salao_de_beleza/src/main/resources/org/example/imagens/Remedio.jpg" />
+         </image></ImageView>
+      <Label fx:id="Texto" layoutX="162.0" layoutY="334.0" prefHeight="39.0" prefWidth="439.0" />
+      <Button fx:id="bt_vol" layoutX="92.0" layoutY="341.0" mnemonicParsing="false" onAction="#bt_vol" text="Voltar" />
+   </children>
+</AnchorPane>
